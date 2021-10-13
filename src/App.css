@@ -1,0 +1,45 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  
+}
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* background-color: coral; */
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+.App .column{
+  width: 30%;
+  /* display: flex;
+  /* flex-direction: column;
+  background-color: brown; */ 
+ 
+}
+
+
+.droppable-col{
+  width:100%;
+  /* height: 50px; */
+  padding: 5px;
+  background-color: aqua;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  margin-bottom: 5px;
+  background-color: blueviolet;
+  padding: 5px;
+  border-radius: 5px;
+}
+.item.drag{
+  background-color: chartreuse;
+}
